@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css?family=Inconsolata:400,700");
+body{
+font-family: Inconsolata, monospace;
+}
+.jumbotron-fluid{
+  background-image: url('/img/kiddafer.png');
+  width: 100%;
+   height: 550px;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.jumbo-register{
+  background-image: url('/img/kidda.png');
+  width: 100%;
+   height: 550px;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+
+}
+.welcome{
+  text-transform: uppercase;
+  font-weight: 900;
+  letter-spacing: 2px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+.label{
+  color: #FFFFFF;
+}
+  #button{
+    margin-left: 70px;
+  }
+  #form-div{
+    margin-top: 100px;
+  }
+.fa-heart{
+  color: #fb7d13;
+}
+.fa-bolt{
+  color: yellow;
+}
+.footer{
+  text-align: center;
+}
+#body-div{
+  background-color: #99AAB4;
+}
+#footer-text{
+  background-color: #99AAB4;
+  font-weight: bold;
+}
+  /*Text animation */
+
+  .welcome{
+      -webkit-animation: color-change 1s infinite;
+      -moz-animation: color-change 1s infinite;
+      -o-animation: color-change 1s infinite;
+      -ms-animation: color-change 1s infinite;
+      animation: color-change 1s infinite;
+  }
+
+  @-webkit-keyframes color-change {
+      0% { color: #99AAB4; }
+      50% { color: #7588D5; }
+      70% { color: #FFFFFF; }
+      100% { color: #99AAB4; }
+  }
+
+.rules{
+  color: #FFFFFF;
+}
+#rules-col{
+  margin-top: 100px;
+}
+.fa-leaf{
+  color: green;
+}
